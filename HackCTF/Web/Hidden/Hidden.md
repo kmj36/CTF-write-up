@@ -5,17 +5,21 @@
 4. 문제 이름: Hidden
 
 # 문제 푼 과정
+
 ![menu](pic/link_menu.PNG)
 
 CTF에 있는 web Hidden 문제를 선택하니 링크가 나왔다.
 링크를 타고 들어가면
+
 ![main](pic/main.PNG)
 
 이렇게 생긴 웹이 떳다. 그런데 이 사이트에 이상한 점은
 "5번 파일에 플래그가 있다악!!!!!!!!!!!" 라고 적혀있고 4번까지 밖에 버튼이 없는 걸 확인할 수 있다.
+
 ![Nop](pic/Nop.PNG)
 
 그리고 버튼을 누르면 'Nop'이라는 메시지가 응답한다.
+
 ![html](pic/html.PNG)
 
 html를 확인했더니 특이한 점이
@@ -32,10 +36,12 @@ html를 확인했더니 특이한 점이
     <button type="submit">5</button>
 </form>
 ```
-를 삽입해보자.
+코드를 삽입해보자.
+
 ![button](pic/button.PNG)
 
 5번째 버튼이 생성되었다.
+
 ![flag](pic/flag.PNG)
 
 서버에 5 값을 전달했더니 플래그가 출력되었다.
