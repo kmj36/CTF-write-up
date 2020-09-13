@@ -1,0 +1,7 @@
+HackCTF 포너블 문제에서 'Binary file'이 주어졌을 경우
+먼저 (IDA, 리눅스 실행, checksec) 등으로 열어본다.
+
+그 후 분석후
+
+파이썬 pwntools 모듈을 이용하여 공격 코드를 작성 후
+Netcat으로 연결하여 공격시도(payload)하여 Shell을 딴다.(실행하게 만든다.)
