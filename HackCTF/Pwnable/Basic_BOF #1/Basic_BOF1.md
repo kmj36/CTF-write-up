@@ -38,7 +38,7 @@ IDA 32bit 버전으로 열어 보니('Binary file'로 열면 디컴파일러가 
 ![if](pic/if.PNG) v5의 값이 출력되고,
 v5가 0x4030201 이 아니며 v5가 0xDEADBEEF 가 아닌 경우 "\nYou are on the right way!" 출력
 
-![DEADBEEF](pic/deadbeef.PNG) v5가 0xDEADBEEF 인 경우 system() 함수가 Shell를 열어준다.
+![DEADBEEF](pic/DEADBEEF.PNG) v5가 0xDEADBEEF 인 경우 system() 함수가 Shell를 열어준다.
 
 ![memory](pic/memory.PNG)
 
