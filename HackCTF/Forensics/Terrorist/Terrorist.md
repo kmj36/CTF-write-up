@@ -8,7 +8,7 @@
 
 포렌식 문제 중 특이한 문제인 'Terrorist'를 풀어 보겠다.
 
-![main](D:\git 관련\CTF-write-up\HackCTF\Forensics\Terrorist\pic\main.PNG)
+![main](pic/main.PNG)
 
 문제를 보면 먼저 Artifact.7z 라는 압축파일이 보인다.
 
@@ -16,17 +16,17 @@
 
 또
 
-![files](D:\git 관련\CTF-write-up\HackCTF\Forensics\Terrorist\pic\files.PNG)
+![files](pic/files.PNG)
 
 압축파일은 열릴 수 있게 되어 있으며 이미지는 고장나 있다.
 
 이미지에 문제가 생긴 것을 보니 이미지 파일에 단서가 있다는 것 같다.
 
-![hxd](D:\git 관련\CTF-write-up\HackCTF\Forensics\Terrorist\pic\hxd.PNG)
+![hxd](pic/hxd.PNG)
 
 HxD로 열어 보니 jpg의 파일 시그니처가 아닌 m4a 라는 음성 파일 시그니처인 것이 보인다.
 
-![m4a](D:\git 관련\CTF-write-up\HackCTF\Forensics\Terrorist\pic\m4a.PNG)
+![m4a](pic/m4a.PNG)
 
 파일의 확장자를 .m4a 로 바꾸어 보았다.
 
@@ -36,7 +36,7 @@ HxD로 열어 보니 jpg의 파일 시그니처가 아닌 m4a 라는 음성 파�
 
 음성이 거꾸로 되어 있는 것 같다.
 
-거꾸로 한 음성![davinch](D:\git 관련\CTF-write-up\HackCTF\Forensics\Terrorist\pic\davinch.PNG)
+거꾸로 한 음성![davinch](pic/davinch.PNG)
 
 은 다음과 같이 들린다.
 
